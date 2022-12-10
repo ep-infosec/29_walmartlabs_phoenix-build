@@ -1,0 +1,36 @@
+{
+  "name": "phoenix-build",
+  "version": "4.0.3",
+  "main": "phoenix-build.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/walmartlabs/phoenix-build.git"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+    "async": "0.x",
+    "colors": "~0.6.0-1",
+    "glob": "~3",
+    "growl": "*",
+    "hula-hoop": "0.x.x",
+    "lumbar": "4.x",
+    "lumbar-long-expires": "1.x",
+    "lumbar-style-doc": "0.x",
+    "lumbar-tester": "1.x",
+    "mocha-phantomjs": "3.x",
+    "mock-server": "1.x",
+    "portscanner": "~0.1.3",
+    "request": "2.x",
+    "underscore": "1.x",
+    "wrench": "*"
+  },
+  "scripts": {
+    "test": "jake test"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {
+    "source-map": "~0.1.8"
+  }
+}
